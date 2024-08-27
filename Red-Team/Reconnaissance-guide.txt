@@ -1,0 +1,32 @@
+
+wafw00f websitename //check the firewall connection
+
+dig websitename
+
+whatweb websitename //for the tech used in web
+
+
+
+theHarvester -d DigiNinja -b
+
+theHarvester -d websitename -b google,linkdin,bing,yahoo
+
+sublist3r -d domainname //for the subdomains
+dnsrecon -d zonetransfer.me -t axfr  ///subdomais that are useful
+
+fierce --domain zonetransfer.me --subdomains //subdomain bruteforce 
+
+searchsploit heartbleed
+
+nikto -h zonetransfer.me
+
+sudo sniper -t zonetransfer.me -m stealth -o -re
+
+amass intel -whois -d zonetransfer.me -dir zonetransfer
+
+amass enum -d zonetransfer.me  //mass scan
+
+amass enum -d zonetransfer.me -src -ip -brute -dir zonetransfer //gives detailed site info with diagram
+
+recon-ng //information  gathering
+
